@@ -14,15 +14,14 @@ test('Should render List Component', () => {
 
 test('Should display list if list is not empty', () => {
 	render(	<List list={dummyData} />);
-	const headerElement = screen.getByTestId("list-id");
-	expect(headerElement).toHaveTextContent("Finn");
-	expect(headerElement).toHaveTextContent("Özkan");
+	const listElement = screen.getByTestId("list-id");
+	expect(listElement).toHaveTextContent("Finn");
+	expect(listElement).toHaveTextContent("Özkan");
 });
 
 test('Should display list if list is empty', () => {
 	const emptyData = [];
 	render(	<List list={emptyData} />);
-	const headerElement = screen.getByTestId("list-id");
-	expect(headerElement).not.toHaveTextContent("Finn");
-	expect(headerElement).not.toHaveTextContent("Özkan");
+	const listElement = screen.getByTestId("list-id");
+	expect(listElement).toHaveTextContent("No Data Found");
 });
