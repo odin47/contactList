@@ -1,0 +1,24 @@
+.listContainer {
+	min-height: 55vh;
+	ul {
+		text-align: center;
+		list-style-type: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));
+		justify-content: space-around;
+		grid-row-gap: 3rem;
+		grid-column-gap: 3rem;
+		padding: 4rem;
+		li {
+			cursor: pointer;
+			margin: 1rem 15rem;
+			padding: 1rem;
+			font-size: 2rem;
+			background: #66806A;
+		}
+	}
+	p {
+		font-size: 3rem;
+		text-align: center;
+	}
+}

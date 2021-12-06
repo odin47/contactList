@@ -1,0 +1,20 @@
+@import "../../styles/colors.scss";
+
+button {
+	cursor: pointer;
+    height: 3.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background: $dark-color;
+    color: $light-color;
+    border: 1px solid;
+    border-radius: 23%;
+}
+
+button:hover {
+	box-shadow: $primary-color 0px 5px, $secondary-color 0px 10px,$tertiary-color 0px 15px;
+}
+
+.selectedButton {
+	opacity: 0.4;
+}

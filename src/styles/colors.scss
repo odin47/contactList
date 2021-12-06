@@ -1,0 +1,13 @@
+$primary-color: #87AAAA;
+$secondary-color: #C8E3D4;
+$tertiary-color: #F6EABE;
+$dark-color: #000000;
+$light-color: #FFFFFF;
+
+:export {
+    primary-color: $primary-color;
+    secondary-color: $secondary-color;
+    tertiary-color: $tertiary-color;
+	dark-color: $dark-color;
+	light-color: $light-color;
+}

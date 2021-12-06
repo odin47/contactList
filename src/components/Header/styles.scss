@@ -1,0 +1,9 @@
+@import "../../styles/colors.scss";
+
+header {
+	span {
+		color: $light-color;
+		font-size: 3rem;
+		margin: 5rem;
+	}
+}

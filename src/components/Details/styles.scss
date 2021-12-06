@@ -1,0 +1,40 @@
+@import "../../styles/colors.scss";
+
+.detailsContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	.leftContainer {
+		flex: 1;
+		.imageContainer {
+			margin: 1rem;
+			img {
+				width: 100%;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+		}
+	}
+	.rightContainer {
+		flex: 4;
+		display: flex;
+		flex-direction: column;
+		.closeContainer {
+			float: right;
+			cursor: pointer;
+			margin: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+		}
+		.contentContainer {
+			display: flex;
+			flex-direction: column;
+			margin: 0 4rem;
+			span {
+				font-weight: bolder;
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+@import "../../styles/colors.scss";
+
+.modalContainer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 490px;
+	min-height: 450px;
+	background: $light-color;
+	border: 1px solid;
+	height: 70%;
+	width: 55%;
+}

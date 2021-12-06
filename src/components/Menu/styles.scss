@@ -1,0 +1,13 @@
+button {
+	cursor: pointer;
+    background: black;
+    border-radius: 10%;
+	min-width: 3rem;
+}
+
+.menuContainer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 2rem;
+}
